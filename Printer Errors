@@ -1,0 +1,8 @@
+/**
+  * Kata Printer Errors
+  * Pviegas
+  */
+
+function printerError($s) {
+    return preg_match_all('/[^a-m]/', $s).'/'.strlen($s);
+}
